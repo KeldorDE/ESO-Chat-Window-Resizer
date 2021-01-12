@@ -1,0 +1,635 @@
+# 4.2.0
+- Changed large exports to use event based exports instead of full exports when a event is fired. (Performance)
+- Added Item Set Collection (Sticker Book) export
+
+# 4.1.5
+- Fixed AvA progress export for rank 50 (Thanks to tim99)
+
+# 4.1.4
+- Added antiquity export
+
+# 4.1.3
+- Added Indeko rune to export
+- Added Crimson Nirnroot to alchemy trait export
+- Added Vile Coagulant to alchemy trait export
+- Added Chaurus Egg to alchemy trait export
+
+# 4.1.2
+- Added icon to furniture
+- Updated known content Ids
+
+# 4.1.1
+- Updated API Version to Markarth
+
+# 4.1.0
+- Delayed data export on start to solve the "To many messages send" error
+- The guild export is now triggered every 30 Minutes instead of every minute
+- The export of each guild is now delayed to solve possible performance issues
+
+# 4.0.11
+- Updated API Version to Stonethorn
+
+# 4.0.10
+- Removed game data export from this AddOn (Moved to a new AddOn)
+
+# 4.0.9
+- Fix for invalid guild export
+
+# 4.0.8
+- Fix for corrupt data export
+
+# 4.0.7
+- New statistical value: Total scryings
+- New statistical values: Number of difficulty levels from scrying
+
+# 4.0.6
+- New statistical value: Gold earned from antiquity rewards
+
+# 4.0.5
+- New statistical value: Leads acquired
+- New statistical value: Antiquarian's Eye used
+
+# 4.0.4
+- Fixed digging difficulty export
+
+# 4.0.3
+- Added total diggings stats
+
+# 4.0.2
+- Perfromance optimizations for the Antiquity System export
+
+# 4.0.1
+- Bugfixes for the Antiquity System export
+
+# 4.0.0
+- Complete rewrite of the addon
+- Feature: Character export by unique character ID (Solves rename problems)
+- Feature: All titles of the character are now exported
+- Bugfix: Statistics get lost on logout or /reloadui
+- Bugfix: Moved event registration to the player active event to prevent race condition situations
+- Various performance optimizations
+
+# 3.2.7
+- New statistical value: Total scryings
+- New statistical values: Number of difficulty levels from scrying
+
+# 3.2.6
+- New statistical value: Gold earned from antiquity rewards
+
+# 3.2.5
+- New statistical value: Leads acquired
+- New statistical value: Antiquarian's Eye used
+
+# 3.2.4
+- New statistical value: Digging victories
+- New statistical value: Out of Time while Digging
+- New statistical value: Antiquity broken while Digging
+- New statistical values: Number of difficulty levels from digging
+
+# 3.2.3
+- Fix for non-exported achievements
+
+# 3.2.2
+- Added achievement criterion export
+
+# 3.2.1
+- Updated API Version to Greymoor
+
+# 3.2.0
+- Removed motif export functions. From now on the lore library is used for motif tracking
+
+# 3.1.19
+- Added Dragon Rheum to alchemy trait export
+
+# 3.1.18
+- Added Crafting Motif 71: Coldsnap Style
+- Added Crafting Motif 72: Meridian Style
+
+# 3.1.17
+- Fixed incorrect version information that caused problems with the client update
+
+# 3.1.16
+- Added Crafting Motif 77: Stags of Z'en Style
+- Added Crafting Motif 78: Moongrave Fane Style
+- Added Crafting Motif 79: Refabricated Style
+
+# 3.1.15
+- Added Crafting Motif 80: Shield of Senchal Style
+- Added Crafting Motif 81: New Moon Priest Style
+- Performance optimizations
+
+# 3.1.14
+- Added collection fragments to export
+- Updated known content Ids
+
+# 3.1.13
+- Updated API Version to Harrowstorm DLC
+
+# 3.1.12
+- Removed Jaedi and Lire runestones from list
+
+# 3.1.11
+- Added export of known rune traits
+
+# 3.1.10
+- Updated Quest, Collectible, Lore Book and recipe database
+- Chickens are no longer counted to the deer statistics
+- Deers are no longer counted to the chicken statistics
+- Added Crafting Motif 76: Dragonguard Style
+
+# 3.1.9
+- Updated API Version to Dragonhold DLC
+
+# 3.1.8
+- Fixed manifest syntax for disable autosave setting (Thanks to sirinsidiator)
+
+# 3.1.7
+- Added Crafting Motif 75: Sunspire Style
+
+# 3.1.6
+- Updated API Version to Scalbreaker DLC
+
+# 3.1.5
+- Bugfix: Horker kills not countable (Thanks to Ogham)
+- Updated known content Ids
+
+# 3.1.4
+- Bugfix for champion points and level updates
+- Added the missing Heroism alchemy trait to the export
+
+# 3.1.3
+- Updated known quest Ids
+
+# 3.1.2
+- Added export of alchemy reagent traits
+- Added timer for leaderboard exports every hour (esoleaderboards.com)
+- Added export of guild recuitments start and end times
+- Added export of guild recuitments roles
+- Added healing overflow statistics
+- Refactored lore book export for better performance
+
+# 3.1.1
+- Added guild recruitment information export of listed guilds
+- Fixed trials export
+- Performance update for quest export
+
+# 3.1.0
+- Added export of completed quests
+
+# 3.0.11
+- Updated list of known collectibles and recipes for Elsweyr
+- Fix for guild trader names
+
+# 3.0.10
+- Enhancements for export of unknown collectibles
+
+# 3.0.9
+- Added export of unknown collectibles
+
+# 3.0.8
+- Fixed broken handling of knonwn collectibles, recipes and lore books
+
+# 3.0.7
+- Get race by game ID
+- Get skill lines by game ID
+
+# 3.0.6
+- Added Crafting Motif 73: Anequina Style
+- Added Crafting Motif 74: Pellitine Style
+- Updatded known lore books list
+- Updatded known collectibles list
+
+# 3.0.5
+- API update for Elsweyr
+
+# 3.0.4
+- Added export of running analyses for display on the portal
+- Another fix for the imperial style
+- Refactored trait export
+
+# 3.0.3
+- Fixed tracking of imperial style
+
+# 3.0.2
+- Set API version to current game version to avoid deprecated warning
+
+# 3.0.1
+- Fixed display of ingame addon version
+
+# 3.0.0
+- API update for Elsweyr
+- Added dragon kills statistics
+
+# 2.9.12
+- Added number of crafted Jewelrycrafting items
+
+# 2.9.11
+- Fixed lore book export
+
+# 2.9.10
+- Removed broken tracking of trials
+
+# 2.9.9
+- Added Crafting Motif: Honor Guard
+
+# 2.9.8
+- Fixed incorrect tracking of known motifs (Thanks Martin)a
+
+# 2.9.7
+- New statistical value: Completed trial (Halls of Fabrication)
+- New statistical value: Completed trial (Asylum Sanctorium)
+- New statistical value: Completed trial (Cloudrest)
+- New statistical value: Completed trial (Blackrose Prison)
+- New statistical value: Completed jewellery crafting writs
+- New statistical value: Collected jewellery crafting materials
+- Refactored trial export
+
+# 2.9.6
+- Added export of Jewlery traits
+- Bugfix: Fixed invalid exported trait data
+
+# 2.9.5
+- Updated API version to Wrathstone
+- Performance improvements
+
+# 2.9.0
+- Summerset update
+
+# 2.7.0
+- Clockwork City update
+
+# 2.6.6
+- Horns of the Reach update
+
+# 2.6.5
+- Updated known variables
+- Optimized leaderboard exporter
+- Added special collectibles and emote collectibles
+
+# 2.5.16
+- Updated known variables
+- Bumped API to Morrowind
+
+# 2.5.15
+- Added export for primary residence
+- Fixed trials to start working now
+
+# 2.5.14
+- Small update for furniture
+
+# 2.5.12
+- API update for Homestead
+- Homestead motifs added
+
+# 2.5.10
+- Added new known collectibles
+- Frostcaster motif added
+
+# 2.5.9
+- Weekly maelstrom hotfix
+
+# 2.5.8
+- Lorebook export added for new values
+- Weekly Maelstrom export added
+
+# 2.5.7
+- Recipe export added for new values
+
+# 2.5.6
+- A rewrite for the lorebooks export to reduce filesize
+- Collectibles updated
+
+# 2.5.3
+- Collectibles updated
+
+# 2.5.2
+- Leaderboards hotfix
+
+# 2.5.1
+- Added tracking for dueling stats
+
+# 2.5.0
+- Updated for OneTamriel
+- Added Yokudan, Celestial, Draugr and Skinchanger motifs
+
+# 2.4.1
+- Added new collectible categories
+
+# 2.4.0
+- API updated for update 11
+- Added guild trader export
+- Added all new motifs
+
+# 2.3.9
+- Export for weekly trial added
+- Preparations for Update 11 Shadows of the Hist added
+
+# 2.3.8
+- Rumare Waterfront Casual Wear added to collectibles
+- City Isle Tunic Dress added to collectibles
+- Timestamp added to leaderboards export
+
+# 2.3.7
+- Small fix where Maw of Lorkhaj and Dragonstar Arena were interpreted as Hel Ra Citadel
+
+# 2.3.6
+- Added support for exporting Trial and Maelstrom Arena leaderboards
+
+# 2.3.5
+- Added Breton Hero Armor to collection
+- Added Doom Wolf to collection
+
+# 2.3.4
+- Mighty hero: Sep Adders killed
+- Mighty hero: Dragon Frogs killed
+- Mighty hero: Herons killed
+- Mighty hero: Antelopes killed
+- Mighty hero: Fiendroth killed
+- Mighty hero: Centipedes killed
+
+# 2.3.3
+- Updated API Version to Dark Brotherhood DLC
+- Removal of Veteran Ranks
+- Export of Crafting Motifs 32: Abah's Watch has been added
+- Export of Crafting Motifs 33: Thieves Guild has been added
+- Export of Crafting Motifs 34: Assassins League has been added
+
+# 2.3.2
+- Export of lore library has been added
+
+# 2.3.1
+- The characters current zone is now exported by ID instead by name
+
+# 2.3.0
+- Updated API Version to Thieves Guild DLC
+- Export of new collectible categories has been added
+- Export of Crafting Motifs 22: Trinimac has been added
+- Export of Crafting Motifs 23: Malacath has been added
+- Export of Crafting Motifs 24: Outlaw has been added
+- Export of Crafting Motifs 25: Dominion has been added
+- Export of Crafting Motifs 26: Covenant has been added
+- Export of Crafting Motifs 27: Pact has been added
+- Export of Crafting Motifs 29: Soul-Shriven has been added
+
+# 2.2.9
+- Removed dmg input debug output
+
+# 2.2.8
+- Added missing XP sources to Export
+- Bugfix for incorect detection of incoming damage values
+- The chat command /esodb version has been added
+
+# 2.2.7
+- Bugfix for incorect detection of incoming damage values
+- Mighty hero: Elk killed
+- New statistics value: Items destroyed
+- Added export of experience point sources
+
+# 2.2.6
+- Mighty hero: Skavengers killed
+- Mighty hero: Fennec Fox killed
+- Mighty hero: Sandroach killed
+- Mighty hero: Thorn Geckos killed
+- Mighty hero: Fellrunners killed
+- Mighty hero: Daggerbacks killed
+- Mighty hero: Wormmouths killed
+- Mighty hero: Daedrats killed
+- Mighty hero: Echalette killed
+- Mighty hero: Chub Loons killed
+- Mighty hero: Pocket Mammoths killed
+- Mighty hero: Horker killed
+
+# 2.2.5
+- Bugfix for incorect detection of incoming damage values
+
+# 2.2.4
+- Export of Crafting Motifs 18: Akaviri has been added
+- Export of Crafting Motifs 19: Mercenary has been added
+- Export of Crafting Motifs 21: Ancient Orc has been added
+
+# 2.2.3
+- Bugfix for wrong max Champion Rank XP value
+
+# 2.2.2
+- Fixed display version in chat commands
+- Updated API Version for Orsinium DLC
+
+# 2.2.1
+- Removed export for Psijic Ambrosia recipe fragments
+- Bugfix for Motifs with chapters
+- Added new known collectible Ids
+
+# 2.2.0
+- From now on only 10 data sets will be saved in history (LUA Memory Limit)
+- Deaths by Slaughterfish attacks are now tracked
+- New statistics value: Looted collectibles
+- New statistics value: Highest looted Gold amount
+- The chat command /esodb telvar was added
+- Export of the Guild Leader Character Name has been added
+- New statistics value: Total Tel Var Stones
+- New statistics value: Tel Var Stones on Character
+- New statistics value: Tel Var Stones on Character
+- New statistics value: Total Tel Var Stones earned
+- New statistics value: Tel Var Stones earned from Players
+- New statistics value: Tel Var Stones earned from NPCs
+- New statistics value: Total Tel Var Stones lost
+- New statistics value: Tel Var Stones lost on death
+- New statistics value: Tel Var Stones lost to players
+- New statistics value: Tel Var Stones spent merchant purchases
+- New statistics value: Highest owned Tel Var Stones on Character
+- New statistics value: Highest earned Tel Var Stones from Character
+- New statistics value: Highest earned Tel Var Stones from NPC
+- New statistics value: Most Tel Var Stones lost on death
+- New statistics value: Most Tel Var Stones lost to player
+- New statistics value: Most expensive Tel Var Stone merchant purchase
+- The new Glasit motif export has been added
+- Export of the chapters of the Glasit motif has been added
+- The new Xivkyn motif export has been added
+- Export of the chapters of the Xivkyn motif has been added
+
+
+# 2.1.1
+- From now on 22 data sets will be saved in history
+- Bugfix for printing of nested elements in chat commands
+- Added new known collectible Ids
+- Added export for Psijic Ambrosia recipe fragments
+- New statistics value: Number of completed repeatable quests
+- New statistics value: Number of completed Alchemist writs
+- New statistics value: Number of completed Blacksmith writs
+- New statistics value: Number of completed Clothier writs
+- New statistics value: Number of completed Enchanter writs
+- New statistics value: Number of completed Provisioner writs
+- New statistics value: Number of completed Woodworker writs
+- Mighty hero: Fox killed
+- Mighty hero: Frogs killed
+- Mighty hero: Scorpion killed
+- Mighty hero: Scribs killed
+- Mighty hero: Beetles killed
+
+# 2.1.0
+- New statistics value: Fence sells
+- New statistics value: Laundered items
+- New statistics value: Gold from fences
+- New statistics value: Best sell at fence
+- New statistics value: Most expensive laundered item
+- New statistics value: Most expensive buyback
+- New statistics value: Amount of all Buybacks
+- New statistics value: Number of merchant buys
+- New statistics value: Number of merchant sells
+- New statistics value: Number of merchant buybacks
+- New statistics value: Number of guild store buys
+- New statistics value: Number of guild store sells
+- The chat command /esodb trading was added
+
+# 2.0.9
+- The XP values of the exported skill lines get now calculated correctly
+- The chat command /esodb skill lines was added
+- Frost Mare was added to the known collectible list
+- Export of all known recipes has been added
+- Export of lockpicking loot quality statistics
+- Export of most expensive merchant and guild store purchases has been added
+- Export of highest merchant and guild store sells has been added
+- Export of most expensive repair has been added
+
+# 2.0.8
+- Grouped achievements will now be exported
+- Date and time of achievement completion will now be exported
+- Achievements will now be exported on the achieved event
+- Removed unnecessary field "SkillType" from skill line export
+
+# 2.0.7
+- The names of the skill lines get now exported in right format
+
+# 2.0.6
+- Bugfix for skill line export
+
+# 2.0.5
+- Bugfix for achievement export
+
+# 2.0.4
+- Export of all skill lines has been added
+- Export of earned achievement points has been added
+- Export of achievements has been added
+
+# 2.0.3
+- The difficulty level of locks will no longer get increased if a lock pick breaks
+
+# 2.0.2
+- The difficulty level of locks will now be tracked by the lock picking statistics
+
+# 2.0.1
+- Fixed some spelling and grammar mistakes in the chat commands
+- The appearance of the chat command outputs have been changed
+
+# 2.0.0
+- The AddOn is now available in english
+
+# 1.2.6
+- Rewards for the worthy are now recorded separately in the Gold Statistics
+- The number of alliance points is now saved
+
+# 1.2.5
+- Mask of merry slaughter added to the list of known collections
+- Guild names are now recorded per character, otherwise guilds were assigned to characters across multiple accounts (THX Skelmir)
+
+# 1.2.4
+- Rewards for the worthy from the AvA will no longer be credited to guild store sales
+- If you open your mailbox immediately after login to retrieve the guild store sales, the mail cache for the add-on will now be created correctly during initialization
+
+# 1.2.3
+- Defeated NPCs will now be counted correctly when you defeat NPCs as a group
+- The current bounty is now read and saved correctly
+- The tradeskills are now read out correctly. There was a problem with the assignment in the different language versions of the game (THX Morzag gro-Nagrosh)
+- It is now asked whether the player is currently emperor or was crowned emperor in the past
+- New collection IDs from Tamriel Unlimited have been added to the list of known IDs
+
+# 1.2.2
+- The chapters of the cultural styles of the peoples 15 are now recorded
+- Adjustments have been made in the recording of the values "Healing done" and "Healing received"
+
+# 1.2.1
+- The reputation in the legal system is now correctly read
+
+# 1.2.0
+- Earnings from guild store sales are now read and saved correctly
+- The chat command /esodb mailcache was added. This command prints the cached guild store mails and their gold amount for debug purposes.
+- Bulls and oxen are now counted in the statistics of defeated cows. (Many thanks to Chufu gro-Kash for the farm tour :P)
+
+# 1.1.10
+- Fixed an error in the export of tradeskills (THX Morzag gro-Nagrosh)
+
+# 1.1.9
+- The number of quality levels of collected items is now stored
+- The new chat command /esodb lootquality was added. This command indicates how many items of the respective quality level have been looted
+- The cleaning of old statistics is now only executed once when the AddOn is loaded for the first time (performance)
+
+# 1.1.8
+- Stolen items are now also counted when they are stolen from chests, cupboards, etc
+- Guilds are now only exported when the add-on is loaded (performance improvement)
+
+# 1.1.7
+- The total experience points received are now counted correctly
+- The progress of the current champion rank is now saved
+- At the request of some players the killed monkeys and camels are now counted
+
+# 1.1.6
+- Error correction for collection UI errors
+
+# 1.1.5
+- Update the functions to Update 6
+- Collections are now exported
+- The export function for mounts has been removed, since they are now included in the collection
+- The character's attributes tab is now saved
+- Justice system values are stored (total bounty received, total bounty paid, number of seizures, number of pickpockets, number of failed pickpockets)
+- The chat command /esosb justice was added
+- The guild store sales are now saved
+- Fished fish are now recorded
+- The output of the chat commands has been revised
+- New fun statistics are now collected: Defeated cows, chickens, deer, goats, sheep, lizards, pigs, rabbits, rats, squirrels, spiders, bantam guars, guars, bears and skeever
+- The received experience and alliance points are now saved
+
+# 1.1.4
+- Known styles are now saved correctly
+
+# 1.1.3
+- Performance adjustments in main export
+
+# 1.1.2
+- Corrected API version in ESODBExport.txt
+
+# 1.1.1
+- Fixed a LUA error
+
+# 1.1.0
+- First stable version with many performance improvements
+
+# 1.0.10
+- Craft ranks, analyzed properties and known styles are now exported correctly
+
+# 1.0.9
+- Craft ranks including experience points, as well as analyzed properties and known styles are now exported
+
+# 1.0.8
+- A timestamp is now stored per character, which is used to detect inactive characters
+
+# 1.0.7
+- Damage and healing done now recorded and saved correctly
+- AvA ranking information is now read correctly
+
+# 1.0.6
+- AvA wins are now counted correctly
+- AvA deaths are now counted correctly
+
+# 1.0.5
+- Mudcrab victories are now counted! :)
+
+# 1.0.4
+- AvA wins are now counted
+- Guilds are saved correctly and removed from the SavedVariables
+
+# 1.0.3
+- Loot items are no longer counted when the bank/guild bank is open
+- The gold amount is now updated when gold is deposited or withdrawn from the bank
+
+# 1.0.2
+- First public version of the ESO-Database Export AddOn
